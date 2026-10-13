@@ -1,27 +1,25 @@
 # DBMS Laboratory Experiments
 
-This repository contains the ordered DBMS laboratory experiment collection. The source archive includes ten PDF manuals; the repository index below records their order and titles.
+This repository contains the SQL source for all 10 DBMS laboratory experiments. The original PDFs are **not uploaded**. Explanatory text, notes, and expected outputs are written as SQL comments (`-- ...`), while executable SQL/PL/SQL statements remain code so GitHub syntax-highlights them.
 
-## Experiment index
+## Experiment files
 
-| No. | Experiment | Platform |
+| No. | Topic | Source file |
 |---:|---|---|
-| 01 | Creation of a Database and SQL Queries for Information Retrieval | MySQL |
-| 02 | Insertion, Deletion, Modification, Alteration, Updating and Conditional Record Viewing | MySQL |
-| 03 | DCL and TCL Commands — Banking Transaction Management | MySQL |
-| 04 | Database Constraints — Online Retail Order Management | MySQL |
-| 05 | Advanced SQL Queries and Set Operators — Library Management | MySQL |
-| 06 | Aggregate Functions, GROUP BY and HAVING — Retail Sales Analysis | MySQL |
-| 07 | Views, Sequences, Indexes and Savepoints — Inventory and Warehouse Management | MySQL |
-| 08 | Normalization (1NF, 2NF, 3NF, 4NF and 5NF) — University Course Registration | MySQL |
-| 09 | Relationships Between Tables, JOINs and Subqueries — IT Project Management | MySQL |
-| 10 | PL/SQL: Conditional Blocks, Exceptions, Procedures, Functions, Triggers and Cursors | Oracle PL/SQL |
+| 01 | Database creation and information retrieval | [Experiment-01.sql](experiments/Experiment-01.sql) |
+| 02 | INSERT, DELETE, ALTER, UPDATE and conditional SELECT | [Experiment-02.sql](experiments/Experiment-02.sql) |
+| 03 | DCL and TCL commands — banking transactions | [Experiment-03.sql](experiments/Experiment-03.sql) |
+| 04 | Database constraints — retail orders | [Experiment-04.sql](experiments/Experiment-04.sql) |
+| 05 | Advanced queries and set operators — library | [Experiment-05.sql](experiments/Experiment-05.sql) |
+| 06 | Aggregate functions, GROUP BY and HAVING | [Experiment-06.sql](experiments/Experiment-06.sql) |
+| 07 | Views, AUTO_INCREMENT, indexes and savepoints | [Experiment-07.sql](experiments/Experiment-07.sql) |
+| 08 | Normalization: 1NF through 5NF | [Experiment-08.sql](experiments/Experiment-08.sql) |
+| 09 | Relationships, JOINs and subqueries | [Experiment-09.sql](experiments/Experiment-09.sql) |
+| 10 | Oracle PL/SQL: blocks, exceptions, procedures, functions, triggers and cursors | [Experiment-10.sql](experiments/Experiment-10.sql) |
 
 ## Software
 
-- Experiments 01–09: MySQL Server and a compatible SQL client (such as MySQL Workbench).
-- Experiment 10: Oracle Database with SQL*Plus or SQL Developer.
-
-## Recommended structure
-
-Keep the original manuals in an `experiments/` folder and name them `Experiment-01.pdf` through `Experiment-10.pdf` so they appear in numeric order. Each manual contains its own aim, requirements, commands/programs, and expected results.
+- Experiments 01–09 use MySQL 8.0+ and a compatible client such as MySQL Workbench or the MySQL command-line client.
+- Experiment 10 uses Oracle Database and SQL*Plus or SQL Developer. It is Oracle PL/SQL, not MySQL syntax.
+- Each file includes illustrative expected-output comments. Exact formatting can vary by client and database version; execute statements in order on a test schema.
+- Some destructive setup statements (`DROP TABLE`) are included to make reruns easier. Do not run these against data you need to keep.
