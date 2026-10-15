@@ -1,55 +1,44 @@
-# 🗃️ DBMS Laboratory
+# Database Management Systems Laboratory
 
-<p align="center">
-  <strong>Database Management Systems · SQL Practice · Lab Experiments</strong><br/>
-  A structured collection of DBMS laboratory work, query examples, and expected results.
-</p>
+A structured collection of DBMS laboratory experiments, SQL examples, and illustrative expected results. Scripts are organized by experiment for practice and revision.
 
-<p align="center">
-  <img alt="SQL" src="https://img.shields.io/badge/Language-SQL-blue?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img alt="Experiments" src="https://img.shields.io/badge/Experiments-10-success?style=for-the-badge"/>
-  <img alt="Status" src="https://img.shields.io/badge/Status-Lab%20Practice-informational?style=for-the-badge"/>
-</p>
+<p><img src="https://img.shields.io/badge/SQL-Database%20Practice-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="SQL database practice"/> <img src="https://img.shields.io/badge/Experiments-10-2563EB?style=flat-square" alt="Ten experiments"/> <img src="https://img.shields.io/badge/Focus-DBMS%20%26%20SQL-0F766E?style=flat-square" alt="DBMS and SQL"/></p>
 
-## 👋 About this repository
+## Experiment index
 
-This repository organizes my DBMS laboratory experiments into readable, syntax-highlighted SQL source files. The scripts include explanatory notes and illustrative expected outputs as SQL comments, so the actual statements remain easy to identify.
-
-## 📚 Experiment index
-
-| No. | Experiment | File |
-|:--:|---|---|
+| # | Experiment | Script |
+|---:|---|---|
 | 01 | Database creation and information retrieval | [Experiment-01.sql](EXPERIMNTS/Experiment-01.sql) |
-| 02 | INSERT, UPDATE, DELETE, ALTER and conditional queries | [Experiment-02.sql](EXPERIMNTS/Experiment-02.sql) |
+| 02 | INSERT, UPDATE, DELETE, ALTER, and conditional queries | [Experiment-02.sql](EXPERIMNTS/Experiment-02.sql) |
 | 03 | Data Control Language (DCL) and Transaction Control Language (TCL) | [Experiment-03.sql](EXPERIMNTS/Experiment-03.sql) |
 | 04 | Constraints and data integrity | [Experiment-04.sql](EXPERIMNTS/Experiment-04.sql) |
-| 05 | Advanced queries, subqueries and set operators | [Experiment-05.sql](EXPERIMNTS/Experiment-05.sql) |
-| 06 | Aggregate functions, GROUP BY and HAVING | [Experiment-06.sql](EXPERIMNTS/Experiment-06.sql) |
-| 07 | Views, AUTO_INCREMENT, indexes and savepoints | [Experiment-07.sql](EXPERIMNTS/Experiment-07.sql) |
-| 08 | Database normalization: 1NF through 5NF | [Experiment-08.sql](EXPERIMNTS/Experiment-08.sql) |
-| 09 | Table relationships, JOINs and subqueries | [Experiment-09.sql](EXPERIMNTS/Experiment-09.sql) |
-| 10 | PL/SQL blocks, exceptions, procedures, functions, triggers and cursors | [Experiment-10.sql](EXPERIMNTS/Experiment-10.sql) |
+| 05 | Advanced queries, subqueries, and set operators | [Experiment-05.sql](EXPERIMNTS/Experiment-05.sql) |
+| 06 | Aggregate functions, GROUP BY, and HAVING | [Experiment-06.sql](EXPERIMNTS/Experiment-06.sql) |
+| 07 | Views, AUTO_INCREMENT, indexes, and savepoints | [Experiment-07.sql](EXPERIMNTS/Experiment-07.sql) |
+| 08 | Database normalization from 1NF through 5NF | [Experiment-08.sql](EXPERIMNTS/Experiment-08.sql) |
+| 09 | Table relationships, JOINs, and subqueries | [Experiment-09.sql](EXPERIMNTS/Experiment-09.sql) |
+| 10 | PL/SQL blocks, exceptions, procedures, functions, triggers, and cursors | [Experiment-10.sql](EXPERIMNTS/Experiment-10.sql) |
 
-## 🏅 Certificates
+## Requirements and compatibility
 
-Certificate files will be organized in the [CERTIFICATES](CERTIFICATES/) folder.
+- **Experiments 01–09:** intended for MySQL 8.0+; use [MySQL](https://dev.mysql.com/downloads/) with [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) or the MySQL command-line client.
+- **Experiment 10:** uses Oracle PL/SQL syntax and is intended for an Oracle environment such as SQL*Plus or [Oracle SQL Developer](https://www.oracle.com/database/sqldeveloper/). It is not a MySQL script.
 
-## 🛠️ Tools and compatibility
+Check the individual script before choosing a database engine.
 
-- **Experiments 01–09:** MySQL 8.0+; run with MySQL Workbench or the MySQL command-line client.
-- **Experiment 10:** Oracle Database; run with SQL*Plus or Oracle SQL Developer. This experiment uses Oracle PL/SQL syntax and is not a MySQL script.
+## Running an experiment
 
-## ▶️ How to run
-
-1. Install and start the database engine required for the experiment.
+1. Install and start the database engine required for that experiment.
 2. Open the matching `.sql` file in your SQL client.
-3. Read the comments first; they describe the goal and expected results.
-4. Execute the statements in order, preferably in a lab or test database.
-5. Compare the actual results with the expected-output comments.
+3. Read the script and comments before executing it.
+4. Run statements in order in a lab or test database.
+5. Compare results with any illustrative output comments.
 
-> **Important:** Some scripts create databases/tables or use `DROP TABLE` to make reruns easier. Review those statements before running them against any database containing data you need to keep. Expected outputs are illustrative; formatting and behavior can vary by database version.
+## Important safety note
 
-## 📁 Repository layout
+Some scripts may create databases or tables, modify records, or drop objects to make reruns easier. **Review destructive statements before execution** and do not run them against a database containing data you need to preserve. Expected output is illustrative; formatting and behavior can vary by database version and client.
+
+## Repository layout
 
 ```text
 DBMS/
@@ -61,8 +50,14 @@ DBMS/
     └── Experiment-10.sql
 ```
 
+The folder name `EXPERIMNTS` is preserved to match the current repository path.
+
+## Related repositories
+
+- [Java Programming Lab](https://github.com/surya-scsvmv/JAVA)
+- [C++ Programming Lab](https://github.com/surya-scsvmv/CPP)
+- [DSA in C](https://github.com/surya-scsvmv/DSA)
+
 ---
 
-<p align="center">
-  Made for learning, practicing, and documenting database concepts.
-</p>
+<p align="center">Learn SQL by writing queries, checking results, and understanding the data.</p>
