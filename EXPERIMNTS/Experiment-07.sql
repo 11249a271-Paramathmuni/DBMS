@@ -1,4 +1,4 @@
--- EXPERIMENT 07: Views, sequences/auto-increment, indexes and savepoints
+-- EXPERIMENT 07: Views, sequences/auto-increment, indexes and savepoints..
 -- Case study: inventory and warehouse management (MySQL 8.0+)
 -- MySQL has no standalone CREATE SEQUENCE in this lab context; AUTO_INCREMENT is used instead.
 CREATE DATABASE IF NOT EXISTS WarehouseDB;
