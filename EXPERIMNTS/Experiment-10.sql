@@ -1,4 +1,4 @@
--- EXPERIMENT 10: Oracle PL/SQL blocks, exceptions, procedures, functions, triggers and cursors
+-- EXPERIMENT 10: Oracle PL/SQL blocks, exceptions, procedures, functions, triggers and cursors..
 -- Platform: Oracle Database with SQL*Plus or SQL Developer. This is Oracle PL/SQL, not MySQL.
 SET SERVEROUTPUT ON;
 BEGIN
