@@ -1,4 +1,4 @@
--- EXPERIMENT 09: Relationships, JOINs and subqueries
+-- EXPERIMENT 09: Relationships, JOINs and subqueries..
 -- Case study: IT company project management (MySQL 8.0+)
 CREATE DATABASE IF NOT EXISTS CompanyDB;
 USE CompanyDB;
