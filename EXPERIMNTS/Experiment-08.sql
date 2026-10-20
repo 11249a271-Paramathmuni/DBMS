@@ -1,4 +1,4 @@
--- EXPERIMENT 08: Normalization from 1NF through 5NF
+-- EXPERIMENT 08: Normalization from 1NF through 5NF..
 -- Case study: university course registration and academic resource management (MySQL 8.0+)
 CREATE DATABASE IF NOT EXISTS NormalizationLabDB;
 USE NormalizationLabDB;
