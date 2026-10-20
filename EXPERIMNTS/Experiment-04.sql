@@ -1,4 +1,4 @@
--- EXPERIMENT 04: Database constraints
+-- EXPERIMENT 04: Database constraints..
 -- Case study: online retail order management (MySQL 8.0.16+)
 CREATE DATABASE IF NOT EXISTS RetailConstraintDB;
 USE RetailConstraintDB;
