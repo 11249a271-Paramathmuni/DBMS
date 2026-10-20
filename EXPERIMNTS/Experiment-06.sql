@@ -1,4 +1,4 @@
--- EXPERIMENT 06: Aggregate functions, GROUP BY and HAVING
+-- EXPERIMENT 06: Aggregate functions, GROUP BY and HAVING..
 -- Case study: retail sales analysis (MySQL 8.0+)
 CREATE DATABASE IF NOT EXISTS RetailSalesDB;
 USE RetailSalesDB;
