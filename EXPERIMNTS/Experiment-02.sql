@@ -1,4 +1,4 @@
--- EXPERIMENT 02: INSERT, DELETE, ALTER, UPDATE and conditional SELECT
+-- EXPERIMENT 02: INSERT, DELETE, ALTER, UPDATE and conditional SELECT.
 -- Database: Employee Payroll System (MySQL 8.0+)
 CREATE DATABASE IF NOT EXISTS PayrollLabDB;
 USE PayrollLabDB;
