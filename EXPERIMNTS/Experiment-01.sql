@@ -1,4 +1,4 @@
--- EXPERIMENT 01: Database creation and information retrieval (MySQL 8.0+)
+-- EXPERIMENT 01: Database creation and information retrieval (MySQL 8.0+)...
 -- Aim: Create a student table and demonstrate filtering and sorting.
 CREATE DATABASE IF NOT EXISTS UniversityDB;
 USE UniversityDB;
