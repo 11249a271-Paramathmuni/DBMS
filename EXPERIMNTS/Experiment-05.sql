@@ -1,4 +1,4 @@
--- EXPERIMENT 05: Advanced SQL queries and set operators
+-- EXPERIMENT 05: Advanced SQL queries and set operators..
 -- Case study: library management (MySQL 8.0.31+ for INTERSECT)
 CREATE DATABASE IF NOT EXISTS LibraryExp5;
 USE LibraryExp5;
