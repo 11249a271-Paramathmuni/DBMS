@@ -1,4 +1,4 @@
--- EXPERIMENT 03: DCL and TCL commands
+-- EXPERIMENT 03: DCL and TCL commands..
 -- Case study: Banking transaction management (MySQL 8.0+)
 CREATE DATABASE IF NOT EXISTS BankDB;
 USE BankDB;
